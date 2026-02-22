@@ -11,12 +11,19 @@
       "dmPolicy": "pairing",
       "groupPolicy": "allowlist",
       "streamMode": "partial"
+    },
+    "discord": {
+      "enabled": true,
+      "token": "${DISCORD_BOT_TOKEN}"
     }
   },
 
   "plugins": {
     "entries": {
       "telegram": {
+        "enabled": true
+      },
+      "discord": {
         "enabled": true
       }
     }
